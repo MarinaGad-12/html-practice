@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>form</title>
+</head>
+<body>
+
+<center>
+    <font color="blue" size="8px" face="verdana" >Table</font><br><br><br>
+
+    <table border="2" cellspacing="15px" cellpadding="10px">
+        
+     
+        <tr>
+            <th colspan="2">
+                Website pages
+                
+          </th>
+          <th rowspan="2" >description</th>
+         
+        </tr>
+        <tr>
+            <td><a href="index3.html">Home</a></td>
+            <td><a href="https://www.google.com/">Search</a></td> 
+        </tr>
+
+        <tr>
+          <td colspan="3" bgcolor="green"><center> all the data is here</center> </td>
+      </tr>
+      <tr>
+          <td rowspan="2">hello hello</td>
+          <td colspan="2"><font color="red"><center>nmmm</center></font>
+              <tr>
+                  <td colspan="2"><center>abcde</center></td>
+              </tr>
+          </td>
+          
+      </tr>
+     
+          
+        
+    </table>
+</center><br><br>
+
+
+<hr>
+<center>
+    <font color="blue" size="8px" face="verdana" >Form</font><br><br><br>
+
+
+
+    <form>
+        <table cellspacing="3px" cellpadding="3px">
+            <tr>
+              <th colspan="2"> 
+                  <label for="fname">Name:</label>
+                  <input type="text" name="name" id="fname"> 
+            </th>
+              <th colspan="2">
+                <label for="pass">Password</label>
+                <input type="password" name="pass" id="pass">
+              </th>
+            </tr>
+            <tr>
+              <td>
+                 gender:
+               <td>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+               </td>
+              </td>
+              <td>
+                <table cellspacing="2" cellpadding="2">
+                    <th rowspan="2"><label for="colors" >Choose a color:</label></th>
+                    <th> <select id="colors" name="colors">
+                        <option value="white">white</option>
+                        <option value="blue">blue</option>
+                        <option value="black">black</option>
+                        <option value="yellow">yellow</option>
+                      </select></th>
+                      <tr><td><input type="submit"></td></tr>
+                </table>
+                
+              </td>
+              
+              
+            </tr>
+          </table>
+    </form>
+
+
+</center><br><br>
+<hr>
+
+<center>
+    <font color="blue" size="8px" face="verdana" >image map</font><br><br><br>
+    <img src="images/4b6aef25-4620-4be8-9219-78fc7f3f0a50.jpg" usemap="#picgoogle">
+    <map name="picgoogle">
+        <area shape="circle" coords="35,38,38" href="index3.html">
+        <area shape="circle" coords="75,27,162,72" href="index3.html#picgoog">
+    </map>
+</center>
+
+</body>
+</html>
